@@ -69,7 +69,7 @@
         </p>
         <p class="text-gray-600 leading-relaxed max-w-lg mb-5">
           I work on <strong class="text-gray-800">multimodal learning and representation learning</strong>,
-          developing deep neural methods for cross-modal alignment, multi-view clustering, and
+          developing methods for cross-modal alignment, multi-view clustering, and
           bioinformatics applications.
         </p>
         <div class="flex flex-wrap gap-2 mb-6">
@@ -106,65 +106,30 @@
   <section id="about" class="py-20 px-6 bg-slate-50">
     <div class="max-w-5xl mx-auto">
       <h2 class="section-heading text-2xl font-bold text-gray-900 mb-10">About</h2>
-      <div class="grid md:grid-cols-3 gap-12">
-
-        <div class="md:col-span-2 space-y-4 text-gray-600 leading-relaxed text-[0.95rem]">
-          <p>
-            I am a PhD researcher at <strong class="text-gray-800">Bar-Ilan University</strong>,
-            advised by Prof. Ofir Lindenbaum. My research focuses on
-            <strong class="text-gray-800">multimodal alignment and representation learning</strong>,
-            building models that discover structure across heterogeneous data modalities without
-            heavy supervision.
-          </p>
-          <p>
-            My work spans self-supervised multi-view clustering, canonical correlation-based
-            time-series alignment, interpretable concept-guided classification, and deep learning
-            for <strong class="text-gray-800">bioinformatics</strong> (immune receptor sequence alignment).
-          </p>
-          <p>
-            I also serve as a <strong class="text-gray-800">Data Scientist</strong> at the <a href="https://dsai.biu.ac.il/" target="_blank" class="text-blue-600 hover:underline">Bar-Ilan Data Science
-            Institute (DSI)</a>, with end-to-end ML projects (LLMs, NLP, CV) in
-            healthcare and large-scale historical data analysis, in collaboration with SHEBA Hospital,
-            Yad Vashem, and Paamonim.
-          </p>
-          <p>
-            Previously I interned at <strong class="text-gray-800">Microsoft Surface</strong> applying
-            computer vision to sensor data. I teach <em>Intro to Deep Learning</em> and
-            <em>Data Science with Python</em> (lecturer from 2025), and host the BIU Learning Club
-            seminar series.
-          </p>
-        </div>
-
-        <div class="space-y-7">
-          <div>
-            <h3 class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Education</h3>
-            <ul class="space-y-4 text-sm text-gray-600">
-              <li class="flex gap-3">
-                <span class="text-blue-400 mt-0.5 flex-shrink-0">▸</span>
-                <div>
-                  <p class="font-semibold text-gray-800">PhD, Engineering</p>
-                  <p>Bar-Ilan University · 2023 – present</p>
-                </div>
-              </li>
-              <li class="flex gap-3">
-                <span class="text-blue-400 mt-0.5 flex-shrink-0">▸</span>
-                <div>
-                  <p class="font-semibold text-gray-800">MSc, Computer Science</p>
-                  <p>Ben-Gurion University · 2018 – 2021</p>
-                </div>
-              </li>
-              <li class="flex gap-3">
-                <span class="text-blue-400 mt-0.5 flex-shrink-0">▸</span>
-                <div>
-                  <p class="font-semibold text-gray-800">BA, Psychology &amp; Cognitive Science</p>
-                  <p>Ben-Gurion University · 2014 – 2018</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-        </div>
-
+      <div class="max-w-2xl space-y-4 text-gray-600 leading-relaxed text-[0.95rem]">
+        <p>
+          I am a PhD researcher at <strong class="text-gray-800">Bar-Ilan University</strong>,
+          advised by Prof. Ofir Lindenbaum. My research focuses on
+          <strong class="text-gray-800">multimodal alignment and representation learning</strong>.
+          I hold an MSc in Computer Science from Ben-Gurion University and a BA in Psychology &amp; Cognitive Science.
+        </p>
+        <p>
+          My work spans self-supervised multi-view clustering, canonical correlation-based
+          time-series alignment, interpretable concept-guided classification, and deep learning
+          for <strong class="text-gray-800">bioinformatics</strong> (immune receptor sequence alignment).
+        </p>
+        <p>
+          I also serve as a <strong class="text-gray-800">Data Scientist</strong> at the <a href="https://dsai.biu.ac.il/" target="_blank" class="text-blue-600 hover:underline">Bar-Ilan Data Science
+          Institute (DSI)</a>, with end-to-end ML projects (LLMs, NLP, CV) in
+          healthcare and large-scale historical data analysis, in collaboration with SHEBA Hospital,
+          Yad Vashem, and Paamonim.
+        </p>
+        <p>
+          Previously I interned at <strong class="text-gray-800">Microsoft Surface</strong> applying
+          computer vision to sensor data. I teach <em>Intro to Deep Learning</em> and
+          <em>Data Science with Python</em> (lecturer from 2025), and host the BIU Learning Club
+          seminar series.
+        </p>
       </div>
     </div>
   </section>
@@ -195,25 +160,6 @@
             A self-supervised framework that leverages cross-view correlations via learned permutations
             to align and cluster data across multiple views, achieving state-of-the-art results on
             standard multi-view benchmarks.
-          </p>
-          <a href="https://scholar.google.com/citations?user=qTdvyLcAAAAJ&hl=en" target="_blank"
-             class="text-xs font-semibold text-blue-600 hover:underline">Paper ↗</a>
-        </div>
-
-        <!-- ICML 2026 -->
-        <div class="pub-card bg-white border border-gray-100 rounded-2xl p-6 shadow-sm">
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="px-2.5 py-0.5 bg-blue-50 text-blue-700 border border-blue-100 rounded-md text-xs font-semibold">
-              ICML 2026
-            </span>
-          </div>
-          <h3 class="text-base font-semibold text-gray-900 mb-1">
-            Learning Permutation from Structure Without Supervision
-          </h3>
-          <p class="text-sm text-gray-400 mb-3">R. Eisenberg et al.</p>
-          <p class="text-sm text-gray-600 leading-relaxed mb-4">
-            A self-supervised method for recovering structural permutations directly from data,
-            without requiring labeled supervision — with applications to multimodal alignment.
           </p>
           <a href="https://scholar.google.com/citations?user=qTdvyLcAAAAJ&hl=en" target="_blank"
              class="text-xs font-semibold text-blue-600 hover:underline">Paper ↗</a>
@@ -288,24 +234,7 @@
 
       <div class="grid md:grid-cols-2 gap-5">
 
-        <div class="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-          <div class="flex items-start justify-between mb-4">
-            <div class="w-10 h-10 bg-purple-50 rounded-xl flex items-center justify-center">
-              <i class="fas fa-music text-purple-500"></i>
-            </div>
-          </div>
-          <h3 class="font-semibold text-gray-900 mb-2">Music Structure Analysis (MSc Thesis)</h3>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">
-            Statistical analysis of musical structures using machine learning for genre classification
-            and generative modeling — bridging audio signal processing with deep learning.
-          </p>
-          <div class="flex gap-2">
-            <span class="px-2 py-0.5 bg-gray-100 text-gray-500 rounded text-xs font-medium">Python</span>
-            <span class="px-2 py-0.5 bg-gray-100 text-gray-500 rounded text-xs font-medium">Audio ML</span>
-          </div>
-        </div>
-
-        <div class="bg-white rounded-2xl p-6 border border-dashed border-gray-200 flex items-center justify-center min-h-[160px] md:col-span-2">
+        <div class="bg-white rounded-2xl p-6 border border-dashed border-gray-200 flex items-center justify-center min-h-[160px]">
           <p class="text-gray-300 text-sm">More projects coming soon</p>
         </div>
 
